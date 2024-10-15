@@ -1,0 +1,43 @@
+live_config_reload = true
+
+import = [
+  "~/.config/alacritty/themes/kanagawa_dragon.toml"
+]
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+decorations = "buttonless"
+dynamic_padding = false
+blur = true
+opacity = 0.6
+
+[window.padding]
+x = 16
+y = 16
+
+[font]
+size = 16.0
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Heavy"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Heavy Italic"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Medium Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Medium"
+
+[mouse]
+hide_when_typing = true
+
+[debug]
+render_timer = false
