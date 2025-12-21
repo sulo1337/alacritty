@@ -1,9 +1,10 @@
 #### My alacritty config
 
 ##### Pre-requisites
-- JetBrains Mono Nerd Font
+- RobotoMono Nerd Font Mono `scoop install nerd-fonts/RobotoMono-NF-Mono`
 
 ##### Installation
+In Powershell:
 ```shell
-git clone https://github.com/sulo1337/alacritty.git ~/.config/alacritty
+git clone --recurse-submodules https://github.com/sulo1337/alacritty.git ~\AppData\Roaming\alacrity
 ```
