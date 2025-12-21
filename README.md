@@ -6,5 +6,5 @@
 ##### Installation
 In Powershell:
 ```shell
-git clone --recurse-submodules https://github.com/sulo1337/alacritty.git ~\AppData\Roaming\alacritty
+git clone --recurse-submodules --single-branch --branch windows https://github.com/sulo1337/alacritty.git $HOME\AppData\Roaming\alacritty
 ```
