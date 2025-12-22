@@ -44,10 +44,15 @@ render_timer = false
 live_config_reload = true
 
 import = [
-  "~\\AppData\\Roaming\\alacritty\\alacritty-theme\\themes\\kanagawa_wave.toml"
+  "~\\AppData\\Roaming\\alacritty\\alacritty-theme\\themes\\rose-pine-moon.toml"
 ]
 
 [[keyboard.bindings]]
 key = "Space"
 mods = "Control"
 chars = "\u0000"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control"
+action = "Paste"
