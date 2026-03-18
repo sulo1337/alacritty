@@ -40,3 +40,6 @@ hide_when_typing = true
 
 [debug]
 render_timer = false
+
+[terminal]
+osc52 = "CopyPaste"
